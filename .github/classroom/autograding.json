@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "T1",
+      "setup": "",
+      "run": "python main.py",
+      "input": "10\r\n25\r\n15\r\n35\r\n50",
+      "output": "[0-9,a-z, \" \"]*75[0-9,a-z, \" \"]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "T2",
+      "setup": "",
+      "run": "python main.py",
+      "input": "5\r\n10\r\n15\r\n20\r\n25",
+      "output": "[0-9,a-z, \" \"]*45[0-9,a-z, \" \"]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
